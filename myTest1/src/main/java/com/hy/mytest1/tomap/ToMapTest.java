@@ -13,6 +13,5 @@ public class ToMapTest {
         for (Dog<String, Double> stringDoubleDog : dogList) {
             System.out.println(stringDoubleDog.getNameKey() + "=" + stringDoubleDog.getNameValue());
         }
-        system.out.println("输出一些没有用的内容");
     }
 }
